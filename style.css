@@ -67,9 +67,25 @@ body {
     text-align: center;
     border-radius: 10px;
     color: white;
+    padding:0 5%;
+    position: relative;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .Biography>h1 {
     font-size: 40px;
 }
+.Biography>p {
+    text-align: justify;
+    font-size: 15px;
+}
+.Biography>ul {
+text-align: right;
+}
+.Biography>span {
+font-size: 10px;
+position: absolute;
+bottom: 10px;
+right: 40%;
+    }
