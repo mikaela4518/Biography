@@ -1,0 +1,15 @@
+span {
+    direction: rtl;
+    text-align: center;
+    margin-top: 150px;
+    display: block;
+    width: 800px;
+    font-size: 30px;
+    background-color: rgb(202, 157, 172);
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    border-radius: 20px;
+    margin: auto;
+    font-family: iransans;
+}
