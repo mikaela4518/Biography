@@ -16,7 +16,7 @@ body {
 
 /* ----------------------- box-item -----------------------  */
 .box-item {
-    width: 44%;
+    width: 40%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 35% 35% 35%;
@@ -26,11 +26,11 @@ body {
 }
 
 .box-item>a {
-    background-color: #96b6c598;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: #1c1c1c;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -49,8 +49,8 @@ body {
 }
 
 .box-item>a>h3 {
-    font-size: 22px;
-    margin: 30px;
+    font-size: 21px;
+    margin:35px 15px;
 }
 
 .box-item>a>img {
@@ -62,7 +62,7 @@ body {
 
 /* ----------------------- Biography -----------------------  */
 .Biography {
-    width: 54%;
+    width: 58%;
     height: 128%;
     text-align: center;
     border-radius: 10px;
